@@ -15,7 +15,7 @@ module.exports = (app) => {
         // to store it back in mongo DB
         resave: true,
 
-        saveUnitialized: false,
+        saveUninitialized: false,
         cookie: {
             // configurations will be different if its deployed or not
             sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
