@@ -1,5 +1,4 @@
 const express = require('express');
-const { restart } = require('nodemon');
 const { isLoggedIn } = require('../middleware/route-guard');
 const router = express.Router(); // express Router we have to create this mini routers to export them
 
