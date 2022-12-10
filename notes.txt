@@ -1,0 +1,40 @@
+// we need a secion to garatee that the user is login
+
+// and the user send a cookie to the browesr for it to know if the user is logned in
+
+// we will also save the setion in the data base 
+
+// for the session we use the library express-session and the pacakege connect-mongo
+
+
+// when our app is connected with another apps 
+app.set('trust porxy', 1)
+
+
+
+/// . WHEN WE REQUIRE A FILE AND THIS FILE IS IN A SUBFOLDER. IF THE FILE IS CALLED index.js
+$$$$ we can just require the the path until the folder because the index is loaded by default 
+
+
+
+// const MongoStore = require('connect-mongo');
+const mongoose = require('mongoose');
+
+to save the section in mongoose 
+
+
+
+// TO DO REQUESTS TO AN API WE NEED AXIOS LIBRARY 
+https://www.npmjs.com/package/axios
+in servicies we add the api services 
+
+
+
+// packages cloudinary
+// multer --> when we try to upload a folder we need to have a specific typer of form
+// multer-storage-cloudinary --> puts bothes packages together. An engine that creates the connetion 
+
+
+
+// For google authentication we need to install three diferent pacakeges
+// passport https://www.passportjs.org/packages/

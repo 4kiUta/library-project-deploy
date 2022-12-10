@@ -1,0 +1,26 @@
+<h2>Add an author</h2>
+
+{{!-- We need to do some adjustements in order to insert photos--}}
+<form action="/authors/create" method="post" enctype="multipart/form-data">
+
+    <label for="">
+        Name
+        <input type="text" name="name" id="">
+    </label>
+
+    <label for="">
+        BIO
+        <textarea name="bio" id="" cols="30" rows="3"></textarea>
+    </label>
+
+    <label for="">
+        Picture
+
+        {{!-- We need to do some adjustements in order to insert photos--}}
+        {{!-- <textarea name="picture_url" id="" cols="30" rows="2"></textarea> --}}
+        <input type="file" name="picture_url">
+    </label>
+
+
+    <button type=" submit">Register</button>
+</form>
